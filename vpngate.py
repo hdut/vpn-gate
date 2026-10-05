@@ -460,7 +460,7 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "cdns.doon.eu.org:443,thebeat.gehealthcare.com:443,cf.xreak.top:443,www.broadcom.com:443,so.360832.xyz:443,www.dbs.com.sg:443,jobsdb.com:443,dongbanghong.com:443,www.mastervolt.com:443,cf.468123.xyz:443,www.crazygames.fr:443,funko.com:443,hzytjy.cn:443,dnew.cc:443,www.xflash.vip:443,www.carousell.sg:443,",
+        "cdns.doon.eu.org:443,thebeat.gehealthcare.com:443",
     ).split(",")
     if h.strip()
 ]
